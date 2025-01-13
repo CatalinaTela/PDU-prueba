@@ -7,7 +7,7 @@ require "./backend/inc/session_start.php";
     <head>
         <?php include "./backend/inc/head.php";?>
     </head>
-    <body>
+    <body background="./assets/img/fondo.jpg">
         <?php
         // Establecer vista por defecto
         if(!isset($_GET['vista']) || $_GET['vista'] == ""){
